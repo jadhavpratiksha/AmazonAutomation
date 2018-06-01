@@ -1,0 +1,79 @@
+2018-04-13 14:44:28 INFO  TC001_VerifyNavigationToLoginPage:25 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-04-13 14:44:28 INFO  HomePage:29 - Clicked on Your Orders
+2018-04-13 14:44:33 INFO  HomePage:32 - Clicked on Sign In
+2018-04-13 14:44:38 INFO  HomePage:39 - Login Page text is:- Login
+2018-04-13 14:44:38 INFO  TC001_VerifyNavigationToLoginPage:29 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-05-04 11:06:56 INFO  TC001_VerifyNavigationToLoginPage:25 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-05-04 11:06:56 INFO  HomePage:29 - Clicked on Your Orders
+2018-05-04 11:07:01 INFO  HomePage:32 - Clicked on Sign In
+2018-05-04 11:07:06 INFO  HomePage:39 - Login Page text is:- Login
+2018-05-04 11:07:06 INFO  TC001_VerifyNavigationToLoginPage:29 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-05-04 13:24:40 INFO  TC001_VerifyNavigationToLoginPage:25 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-05-04 13:26:45 INFO  HomePage:29 - Clicked on Your Orders
+2018-05-09 16:48:12 INFO  TC001_VerifyNavigationToLoginPage:25 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-05-09 16:48:12 INFO  HomePage:29 - Clicked on Your Orders
+2018-05-09 16:48:17 INFO  HomePage:32 - Clicked on Sign In
+2018-05-09 16:48:22 INFO  HomePage:40 - Login Page text is:- Login
+2018-05-09 16:48:23 INFO  TC001_VerifyNavigationToLoginPage:29 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-05-09 17:39:46 INFO  TC001_VerifyNavigationToLoginPage:28 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-05-09 17:39:46 INFO  HomePage:42 - Clicked on Your Orders
+2018-05-09 17:39:51 INFO  HomePage:45 - Clicked on Sign In
+2018-05-09 17:39:57 INFO  HomePage:64 - Login Page text is:- Login
+2018-05-09 17:39:57 INFO  HomePage:53 - Enter Email Id
+2018-05-09 17:39:57 INFO  HomePage:55 - Enter Password
+2018-05-09 17:39:59 INFO  HomePage:57 - Click on Login Button
+2018-05-09 17:40:07 INFO  TC001_VerifyNavigationToLoginPage:33 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-05-09 17:42:17 INFO  TC001_VerifyNavigationToLoginPage:28 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-05-09 17:42:17 INFO  HomePage:42 - Clicked on Your Orders
+2018-05-09 17:42:23 INFO  HomePage:45 - Clicked on Sign In
+2018-05-09 17:42:28 INFO  HomePage:64 - Login Page text is:- Login
+2018-05-09 17:42:28 INFO  HomePage:53 - Enter Email Id
+2018-05-09 17:42:28 INFO  HomePage:55 - Enter Password
+2018-05-09 17:42:29 INFO  HomePage:57 - Click on Login Button
+2018-05-09 17:42:40 INFO  TC001_VerifyNavigationToLoginPage:34 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-05-09 17:44:07 INFO  TC001_VerifyNavigationToLoginPage:28 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-05-09 17:44:07 INFO  HomePage:42 - Clicked on Your Orders
+2018-05-09 17:44:12 INFO  HomePage:45 - Clicked on Sign In
+2018-05-09 17:44:18 INFO  HomePage:64 - Login Page text is:- Login
+2018-05-09 17:44:18 INFO  HomePage:53 - Enter Email Id
+2018-05-09 17:44:18 INFO  HomePage:55 - Enter Password
+2018-05-09 17:44:20 INFO  HomePage:57 - Click on Login Button
+2018-05-09 17:44:30 INFO  HomePage:70 - Successful Login Page text is:- Hello, Pratiksha
+2018-05-09 17:44:30 INFO  TC001_VerifyNavigationToLoginPage:34 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-01 13:16:06 INFO  TC001_VerifyNavigationToLoginPage:25 - ===========================Starting verifyRegistration Test===========================
+2018-06-01 13:16:06 INFO  HomePage:77 - Clicked on Your Orders
+2018-06-01 13:16:12 INFO  HomePage:80 - Clicked on New Customer Link
+2018-06-01 14:23:16 INFO  TC001_VerifyNavigationToLoginPage:27 - ===========================Starting verifyRegistration Test===========================
+2018-06-01 14:23:16 INFO  HomePage:77 - Clicked on Your Orders
+2018-06-01 14:23:21 INFO  HomePage:80 - Clicked on New Customer Link
+2018-06-01 14:23:24 INFO  HomePage:88 - Enter Customer info
+2018-06-01 14:23:26 INFO  HomePage:95 - Click on Continue button
+2018-06-01 14:30:38 INFO  TC001_VerifyNavigationToLoginPage:28 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-01 14:30:38 INFO  HomePage:42 - Clicked on Your Orders
+2018-06-01 14:30:43 INFO  HomePage:45 - Clicked on Sign In
+2018-06-01 14:30:49 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-01 14:30:49 INFO  HomePage:53 - Enter Email Id
+2018-06-01 14:30:49 INFO  HomePage:55 - Enter Password
+2018-06-01 14:30:58 INFO  HomePage:57 - Click on Login Button
+2018-06-01 14:31:05 INFO  HomePage:70 - Successful Login Page text is:- Hello, Pratiksha
+2018-06-01 14:31:06 INFO  TC001_VerifyNavigationToLoginPage:34 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-01 14:39:23 INFO  TestBase:33 - Creating object of :firefox
+2018-06-01 14:39:29 INFO  TestBase:46 - Navigating to :https://www.amazon.in/
+2018-06-01 14:39:41 INFO  TC001_VerifyNavigationToLoginPage:28 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-01 14:39:41 INFO  HomePage:42 - Clicked on Your Orders
+2018-06-01 14:39:46 INFO  HomePage:45 - Clicked on Sign In
+2018-06-01 14:39:52 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-01 14:39:52 INFO  HomePage:53 - Enter Email Id
+2018-06-01 14:39:52 INFO  HomePage:55 - Enter Password
+2018-06-01 14:40:05 INFO  TC001_VerifyNavigationToLoginPage:27 - ===========================Starting verifyRegistration Test===========================
+2018-06-01 14:40:05 INFO  HomePage:77 - Clicked on Your Orders
+2018-06-01 14:40:11 INFO  HomePage:80 - Clicked on New Customer Link
+2018-06-01 14:47:19 INFO  TC001_VerifyNavigationToLoginPage:28 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-01 14:47:19 INFO  HomePage:42 - Clicked on Your Orders
+2018-06-01 14:47:24 INFO  HomePage:45 - Clicked on Sign In
+2018-06-01 14:47:30 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-01 14:47:30 INFO  HomePage:53 - Enter Email Id
+2018-06-01 14:47:30 INFO  HomePage:55 - Enter Password
+2018-06-01 14:47:32 INFO  HomePage:57 - Click on Login Button
+2018-06-01 14:47:37 INFO  HomePage:70 - Successful Login Page text is:- Hello, Pratiksha
+2018-06-01 14:47:37 INFO  TC001_VerifyNavigationToLoginPage:34 - =====================Finished verifyNavigationToLoginPage Test====================

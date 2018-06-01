@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AmazonAutomation]">
+  <test name="Test(failed)" preserve-order="true">
+    <classes>
+      <class name="com.test.automation.AmazonAutomation.homePage.TC002VerifyRegistrationProcess">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="verfiyRegistrationProcess"/>
+        </methods>
+      </class> <!-- com.test.automation.AmazonAutomation.homePage.TC002VerifyRegistrationProcess -->
+      <class name="com.test.automation.AmazonAutomation.homePage.TC001_VerifyNavigationToLoginPage">
+        <methods>
+          <include name="setUp"/>
+          <include name="endTest"/>
+          <include name="verifyNavigationToLoginPage"/>
+        </methods>
+      </class> <!-- com.test.automation.AmazonAutomation.homePage.TC001_VerifyNavigationToLoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AmazonAutomation] -->
