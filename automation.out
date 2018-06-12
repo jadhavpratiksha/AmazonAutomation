@@ -77,3 +77,85 @@
 2018-06-01 14:47:32 INFO  HomePage:57 - Click on Login Button
 2018-06-01 14:47:37 INFO  HomePage:70 - Successful Login Page text is:- Hello, Pratiksha
 2018-06-01 14:47:37 INFO  TC001_VerifyNavigationToLoginPage:34 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-11 16:13:16 INFO  HomePageTest:31 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-11 16:13:16 INFO  HomePage:42 - Clicked on Your Orders
+2018-06-11 16:13:21 INFO  HomePage:45 - Clicked on Sign In
+2018-06-11 16:13:28 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-11 16:13:28 INFO  HomePage:53 - Enter Email Id
+2018-06-11 16:13:28 INFO  HomePage:55 - Enter Password
+2018-06-11 16:13:33 INFO  HomePage:57 - Click on Login Button
+2018-06-11 16:13:37 INFO  HomePage:70 - Successful Login Page text is:- Hello, Pratiksha
+2018-06-11 16:13:37 INFO  HomePageTest:37 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-11 16:17:03 INFO  HomePageTest:31 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-11 16:17:03 INFO  HomePage:43 - Clicked on Your Orders
+2018-06-11 16:17:09 INFO  HomePage:46 - Clicked on Sign In
+2018-06-11 16:17:46 INFO  HomePageTest:31 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-11 16:17:46 INFO  HomePage:43 - Clicked on Your Orders
+2018-06-11 16:17:51 INFO  HomePage:46 - Clicked on Sign In
+2018-06-11 16:17:57 INFO  HomePage:67 - Login Page text is:- Login
+2018-06-11 16:17:57 INFO  HomePage:54 - Enter Email Id
+2018-06-11 16:17:57 INFO  HomePage:56 - Click on Continue btn
+2018-06-11 16:17:58 INFO  HomePage:58 - Enter Password
+2018-06-11 16:17:58 INFO  HomePage:60 - Click on Login Button
+2018-06-11 16:18:02 INFO  HomePage:73 - Successful Login Page text is:- Hello, Pratiksha
+2018-06-11 16:18:02 INFO  HomePageTest:37 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-12 14:27:25 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 14:27:25 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 14:27:30 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 14:27:37 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-12 14:27:37 INFO  HomePage:51 - Enter Email Id
+2018-06-12 14:27:37 INFO  HomePage:53 - Click on Continue btn
+2018-06-12 14:27:38 INFO  HomePage:55 - Enter Password
+2018-06-12 14:27:38 INFO  HomePage:57 - Click on Login Button
+2018-06-12 14:27:42 INFO  HomePage:73 - Successful Login Page text is:- [[ChromeDriver: chrome on XP (edbde23999887590fac03b0f40bc541d)] -> xpath: //a[@id='nav-link-yourAccount']/span[1]]
+2018-06-12 14:27:42 INFO  HomePageTest:54 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-12 14:28:28 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 14:28:28 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 14:28:33 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 14:28:39 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-12 14:28:39 INFO  HomePage:51 - Enter Email Id
+2018-06-12 14:28:39 INFO  HomePage:53 - Click on Continue btn
+2018-06-12 14:28:41 INFO  HomePage:55 - Enter Password
+2018-06-12 14:28:41 INFO  HomePage:57 - Click on Login Button
+2018-06-12 14:28:44 INFO  HomePage:73 - Successful Login Page text is:- [[ChromeDriver: chrome on XP (f3f66571b3a6bfd6f6462c21f7f299f5)] -> xpath: //a[@id='nav-link-yourAccount']/span[1]]
+2018-06-12 14:28:44 INFO  HomePageTest:54 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-12 14:30:08 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 14:30:08 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 14:30:13 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 14:30:19 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-12 14:30:19 INFO  HomePage:51 - Enter Email Id
+2018-06-12 14:30:19 INFO  HomePage:53 - Click on Continue btn
+2018-06-12 14:30:21 INFO  HomePage:55 - Enter Password
+2018-06-12 14:30:21 INFO  HomePage:57 - Click on Login Button
+2018-06-12 14:30:25 INFO  HomePage:73 - Successful Login Page text is:- [[ChromeDriver: chrome on XP (910aa0ecb761cd779d9e12560232a6d1)] -> xpath: //a[@id='nav-link-yourAccount']/span[1]]
+2018-06-12 14:30:25 INFO  HomePageTest:54 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-12 14:31:39 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 14:31:39 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 14:31:44 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 14:31:51 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-12 14:31:51 INFO  HomePage:51 - Enter Email Id
+2018-06-12 14:31:52 INFO  HomePage:53 - Click on Continue btn
+2018-06-12 14:31:53 INFO  HomePage:55 - Enter Password
+2018-06-12 14:31:54 INFO  HomePage:57 - Click on Login Button
+2018-06-12 14:32:07 INFO  HomePage:73 - Successful Login Page text is:- [[ChromeDriver: chrome on XP (d2c6633e8af2b406165390ec5951433d)] -> xpath: //a[@id='nav-link-yourAccount']/span[1]]
+2018-06-12 14:32:07 INFO  HomePageTest:54 - =====================Finished verifyNavigationToLoginPage Test====================
+2018-06-12 14:35:59 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 14:36:01 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 14:36:06 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 15:31:18 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 15:31:18 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 15:31:23 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 15:31:31 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-12 15:31:31 INFO  HomePage:51 - Enter Email Id
+2018-06-12 15:31:31 INFO  HomePage:53 - Click on Continue btn
+2018-06-12 15:31:32 INFO  HomePage:55 - Enter Password
+2018-06-12 15:36:15 INFO  HomePageTest:47 - =====================Statrting verifyNavigationToLoginPage Test====================
+2018-06-12 15:36:18 INFO  HomePage:40 - Clicked on Your Orders
+2018-06-12 15:36:23 INFO  HomePage:43 - Clicked on Sign In
+2018-06-12 15:36:30 INFO  HomePage:64 - Login Page text is:- Login
+2018-06-12 15:36:35 INFO  HomePage:51 - Enter Email Id
+2018-06-12 15:36:36 INFO  HomePage:53 - Click on Continue btn
+2018-06-12 15:36:37 INFO  HomePage:55 - Enter Password
+2018-06-12 15:36:37 INFO  HomePage:57 - Click on Login Button
+2018-06-12 15:36:59 INFO  HomePage:73 - Successful Login Page text is:- [[ChromeDriver: chrome on XP (7e27ce6cff72ac9118adcda0f6f07842)] -> xpath: //a[@id='nav-link-yourAccount']/span[1]]
+2018-06-12 15:37:06 INFO  HomePageTest:54 - =====================Finished verifyNavigationToLoginPage Test====================

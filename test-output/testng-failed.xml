@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)" preserve-order="true">
+<suite name="Failed suite [Regression Suite]">
+  <test name="HomePageTest(failed)" preserve-order="true">
     <classes>
-      <class name="com.test.automation.AmazonAutomation.homePage.TC001_VerifyNavigationToLoginPage">
+      <class name="com.test.amazonautomation.testactions.HomePageTest">
         <methods>
           <include name="setUp"/>
-          <include name="verifyNavigationToLoginPage"/>
+          <include name="endTest"/>
+          <include name="verifyLoginFunctionality" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.test.automation.AmazonAutomation.homePage.TC001_VerifyNavigationToLoginPage -->
+      </class> <!-- com.test.amazonautomation.testactions.HomePageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- HomePageTest(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

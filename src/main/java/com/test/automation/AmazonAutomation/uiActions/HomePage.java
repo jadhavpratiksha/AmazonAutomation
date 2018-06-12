@@ -20,13 +20,11 @@ public class HomePage
 	@FindBy(xpath = "//input[@id='ap_phone_number']") WebElement txtbxMobileNo;
 	@FindBy(xpath = "//input[@id='ap_email']") WebElement txtbxEmailId;
 	@FindBy(xpath = "//input[@id='ap_password']") WebElement txtbxPassword;
-	@FindBy(xpath = "//input[@id='continue']") WebElement btnContinue;
+	@FindBy(xpath = "//span[@id='continue']") WebElement btnContinue;
 	@FindBy(xpath = "//input[@id='ap_email']") WebElement txtbxEmail;
 	@FindBy(xpath = "//input[@id='signInSubmit']") WebElement btnLogin;
 	@FindBy(xpath = "//a[@id='nav-link-yourAccount']/span[1]") WebElement txtSuccessfulLogin;
-	
-	
-	
+	@FindBy(xpath = "//a[@id='nav-item-signout-sa']/span[contains(text(), 'Sign Out')]") WebElement lnkSignOut;
 	
 	public HomePage(WebDriver driver)
 	{
@@ -52,6 +50,8 @@ public class HomePage
 	{
 		log.info("Enter Email Id");
 		txtbxEmail.sendKeys(email);
+		log.info("Click on Continue btn");
+		btnContinue.click();
 		log.info("Enter Password");
 		txtbxPassword.sendKeys(pwd);
 		log.info("Click on Login Button");
@@ -65,12 +65,21 @@ public class HomePage
 		return txtLogin.getText();
 	}
 	
-	public String getSuccessfulLoginText()
+	public boolean verifySuccessfullLoginTextDisplay()
 	{
-		log.info("Successful Login Page text is:- "+txtSuccessfulLogin.getText());
-		return txtSuccessfulLogin.getText();
+		try 
+		{
+			txtSuccessfulLogin.isDisplayed();
+			log.info("Successful Login Page text is:- "+txtSuccessfulLogin.toString());
+			return true;
+		}
+		catch(Exception e)
+		{
+			return false;
+		}
 	}
 	
+	//to register a new user
 	public void navigateToNewCustomerLink() throws Exception
 	{
 		Actions action = new Actions(driver);
@@ -80,9 +89,10 @@ public class HomePage
 		log.info("Clicked on New Customer Link");
 		lnkNewCustomer.click();
 		Thread.sleep(2000);
-		
 	}
 	
+	
+	//to fill new user details
 	public void registerUser(String cname, String mobileNo, String pwd)
 	{
 		log.info("Enter Customer info");
@@ -94,5 +104,17 @@ public class HomePage
 		txtbxPassword.sendKeys(pwd);
 		log.info("Click on Continue button");
 		btnContinue.click();
+	}
+	
+	public void clickOnSignOutLink() throws Exception
+	{
+		Actions action = new Actions(driver);
+		log.info("Clicked on Your Orders");
+		action.moveToElement(lnkYourOrders).build().perform();
+		Thread.sleep(5000);
+		log.info("Clicked on Sign Out link");
+		lnkSignOut.click();
+		Thread.sleep(5000);
+		
 	}
 }

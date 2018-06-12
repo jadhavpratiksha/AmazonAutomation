@@ -1,12 +1,13 @@
 package com.test.automation.AmazonAutomation.testBase;
 
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.test.automation.AmazonAutomation.excelReader.ExcelReader;
 
 
 public class TestBase 
@@ -16,7 +17,7 @@ public class TestBase
 	public WebDriver driver;
 	String browser = "chrome";
 	String url = "https://www.amazon.in/";
-	
+	ExcelReader excel;
 	public void init() 
 	{
 		selctBrowser(browser);
@@ -47,5 +48,13 @@ public class TestBase
 		driver.get(url);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	}
+	
+	public String[][] getData(String excelName, String sheetName)
+	{	
+		String path = System.getProperty("user.dir")+"\\src\\main\\java\\com\\test\\automation\\AmazonAutomation\\data\\"+excelName;
+		excel = new ExcelReader(path);
+		String[][] data = excel.getDataFromSheet(sheetName, excelName);
+		return data;
 	}
 }
